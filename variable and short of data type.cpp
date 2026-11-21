@@ -45,8 +45,18 @@ int main(){
     int a,b,c;
     a = b = c = 10;
 
-    cout << a+b+c;
+    cout << a+b+c << endl;
 
+    /* constant variable 
+    can not be change the value */
+
+    const int num2 = 10;
+    cout << num2;
+
+
+    /* if i change the value like this :
+    num2 = 20;
+    notification of error will to show */
 
 
 
